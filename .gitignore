@@ -1,0 +1,27 @@
+*/.classpath
+*/.project
+*/.gitignore.bak
+*/*.iml
+
+.classpath
+.project
+.gitignore.bak
+
+*.iml
+
+## IDE
+
+*/.settings/
+*/.idea/
+
+.settings/
+.idea/
+
+## OUTPUT
+
+*/target/
+*/bin/
+
+target/
+bin/
+/.idea/workspace.xml
