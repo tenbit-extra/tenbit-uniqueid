@@ -18,6 +18,10 @@
     <!--<version>1.0.0</version>-->
     <version>1.0.0-SNAPSHOT</version>
 
+    <properties>
+        <tenbit-uniqueid-core.version>1.0.0-SNAPSHOT</tenbit-uniqueid-core.version>
+    </properties>
+
     <modules>
         <module>tenbit-uniqueid-core</module>
         <module>tenbit-uniqueid-server</module>
