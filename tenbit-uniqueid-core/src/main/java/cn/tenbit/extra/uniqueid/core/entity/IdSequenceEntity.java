@@ -1,4 +1,4 @@
-package cn.tenbit.extra.uniqueid.entity;
+package cn.tenbit.extra.uniqueid.core.entity;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

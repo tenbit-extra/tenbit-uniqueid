@@ -1,8 +1,8 @@
-package cn.tenbit.extra.uniqueid.realization;
+package cn.tenbit.extra.uniqueid.core.realization;
 
-import cn.tenbit.extra.uniqueid.entity.IdSequenceEntity;
-import cn.tenbit.extra.uniqueid.model.*;
-import cn.tenbit.extra.uniqueid.support.IdSequenceSegmentRefreshable;
+import cn.tenbit.extra.uniqueid.core.entity.IdSequenceEntity;
+import cn.tenbit.extra.uniqueid.core.model.*;
+import cn.tenbit.extra.uniqueid.core.support.IdSequenceSegmentRefreshable;
 import cn.tenbit.hare.lite.exception.HareException;
 
 import java.util.Map;

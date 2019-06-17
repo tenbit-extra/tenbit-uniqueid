@@ -1,6 +1,6 @@
-package cn.tenbit.extra.uniqueid.model;
+package cn.tenbit.extra.uniqueid.core.model;
 
-import cn.tenbit.extra.uniqueid.support.IdSequenceSegmentRefreshable;
+import cn.tenbit.extra.uniqueid.core.support.IdSequenceSegmentRefreshable;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicReference;

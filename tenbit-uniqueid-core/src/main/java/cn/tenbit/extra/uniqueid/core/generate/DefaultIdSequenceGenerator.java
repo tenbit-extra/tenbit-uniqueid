@@ -1,7 +1,7 @@
-package cn.tenbit.extra.uniqueid.generate;
+package cn.tenbit.extra.uniqueid.core.generate;
 
-import cn.tenbit.extra.uniqueid.contain.IdSequenceBeanContainer;
-import cn.tenbit.extra.uniqueid.service.IdSequenceDefaultService;
+import cn.tenbit.extra.uniqueid.core.contain.IdSequenceBeanContainer;
+import cn.tenbit.extra.uniqueid.core.service.IdSequenceDefaultService;
 
 /**
  * @Author bangquan.qian

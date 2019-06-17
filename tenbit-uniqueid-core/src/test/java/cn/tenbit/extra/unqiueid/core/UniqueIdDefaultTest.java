@@ -1,8 +1,8 @@
-package cn.tenbit.extra.unqiueid;
+package cn.tenbit.extra.unqiueid.core;
 
-import cn.tenbit.extra.uniqueid.model.IdSequenceResult;
-import cn.tenbit.extra.uniqueid.realization.AbstractIdSequenceRealization;
-import cn.tenbit.extra.uniqueid.realization.IdSequenceDefaultRealization;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceResult;
+import cn.tenbit.extra.uniqueid.core.realization.AbstractIdSequenceRealization;
+import cn.tenbit.extra.uniqueid.core.realization.IdSequenceDefaultRealization;
 import cn.tenbit.hare.lite.util.HarePrintUtils;
 
 import java.util.ArrayList;

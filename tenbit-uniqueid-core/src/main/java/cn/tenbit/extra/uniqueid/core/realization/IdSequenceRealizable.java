@@ -1,7 +1,7 @@
-package cn.tenbit.extra.uniqueid.realization;
+package cn.tenbit.extra.uniqueid.core.realization;
 
-import cn.tenbit.extra.uniqueid.model.IdSequenceQueueStatus;
-import cn.tenbit.extra.uniqueid.model.IdSequenceResult;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceQueueStatus;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceResult;
 
 /**
  * @Author bangquan.qian

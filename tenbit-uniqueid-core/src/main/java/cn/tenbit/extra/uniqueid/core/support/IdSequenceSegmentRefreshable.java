@@ -1,6 +1,6 @@
-package cn.tenbit.extra.uniqueid.support;
+package cn.tenbit.extra.uniqueid.core.support;
 
-import cn.tenbit.extra.uniqueid.model.IdSequenceSegment;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceSegment;
 
 /**
  * @Author bangquan.qian

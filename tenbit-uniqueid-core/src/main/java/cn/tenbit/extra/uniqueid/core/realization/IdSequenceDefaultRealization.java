@@ -1,8 +1,8 @@
-package cn.tenbit.extra.uniqueid.realization;
+package cn.tenbit.extra.uniqueid.core.realization;
 
-import cn.tenbit.extra.uniqueid.constant.IdSequenceBizConsts;
-import cn.tenbit.extra.uniqueid.entity.IdSequenceEntity;
-import cn.tenbit.extra.uniqueid.model.IdSequenceQueue;
+import cn.tenbit.extra.uniqueid.core.constant.IdSequenceBizConsts;
+import cn.tenbit.extra.uniqueid.core.entity.IdSequenceEntity;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceQueue;
 
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;

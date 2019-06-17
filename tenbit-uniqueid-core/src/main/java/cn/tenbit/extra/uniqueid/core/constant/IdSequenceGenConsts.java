@@ -1,4 +1,4 @@
-package cn.tenbit.extra.uniqueid.constant;
+package cn.tenbit.extra.uniqueid.core.constant;
 
 /**
  * @Author bangquan.qian

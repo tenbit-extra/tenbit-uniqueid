@@ -1,4 +1,4 @@
-package cn.tenbit.extra.uniqueid.model;
+package cn.tenbit.extra.uniqueid.core.model;
 
 import lombok.Getter;
 

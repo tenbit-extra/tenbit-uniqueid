@@ -1,6 +1,6 @@
-package cn.tenbit.extra.uniqueid.contain;
+package cn.tenbit.extra.uniqueid.core.contain;
 
-import cn.tenbit.extra.uniqueid.support.IdSequenceBeanContainerSupport;
+import cn.tenbit.extra.uniqueid.core.support.IdSequenceBeanContainerSupport;
 import cn.tenbit.hare.lite.constant.HareConsts;
 import cn.tenbit.hare.lite.exception.HareException;
 import cn.tenbit.hare.lite.util.HareAssertUtils;

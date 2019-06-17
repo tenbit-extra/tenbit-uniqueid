@@ -1,8 +1,8 @@
-package cn.tenbit.extra.uniqueid.support;
+package cn.tenbit.extra.uniqueid.core.support;
 
-import cn.tenbit.extra.uniqueid.constant.IdSequenceGenConsts;
-import cn.tenbit.extra.uniqueid.contain.IdSequenceBeanContainer;
-import cn.tenbit.extra.uniqueid.service.IdSequenceService;
+import cn.tenbit.extra.uniqueid.core.constant.IdSequenceGenConsts;
+import cn.tenbit.extra.uniqueid.core.contain.IdSequenceBeanContainer;
+import cn.tenbit.extra.uniqueid.core.service.IdSequenceService;
 import lombok.Getter;
 
 /**

@@ -1,4 +1,4 @@
-package cn.tenbit.extra.uniqueid.generate;
+package cn.tenbit.extra.uniqueid.core.generate;
 
 public interface IdSequenceGenerate {
 

@@ -1,8 +1,8 @@
-package cn.tenbit.extra.uniqueid.service;
+package cn.tenbit.extra.uniqueid.core.service;
 
-import cn.tenbit.extra.uniqueid.contain.IdSequenceBeanContainer;
-import cn.tenbit.extra.uniqueid.model.IdSequenceResult;
-import cn.tenbit.extra.uniqueid.realization.IdSequenceDefaultRealization;
+import cn.tenbit.extra.uniqueid.core.contain.IdSequenceBeanContainer;
+import cn.tenbit.extra.uniqueid.core.model.IdSequenceResult;
+import cn.tenbit.extra.uniqueid.core.realization.IdSequenceDefaultRealization;
 import cn.tenbit.hare.lite.exception.HareException;
 
 /**
