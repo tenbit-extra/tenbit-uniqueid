@@ -4,33 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>cn.tenbit.basic</groupId>
-        <artifactId>tenbit-bom</artifactId>
-        <!--<version>1.0.0</version>-->
+        <artifactId>tenbit-uniqueid</artifactId>
+        <groupId>cn.tenbit.extra</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.tenbit.extra</groupId>
-    <artifactId>tenbit-uniqueid</artifactId>
+    <artifactId>tenbit-uniqueid-core</artifactId>
     <name>${project.artifactId}</name>
     <!--<version>1.0.0</version>-->
     <version>1.0.0-SNAPSHOT</version>
 
-    <modules>
-        <module>tenbit-uniqueid-core</module>
-        <module>tenbit-uniqueid-server</module>
-    </modules>
-
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <dependencies>
 
-        <dependency>
-            <groupId>cn.tenbit.basic</groupId>
-            <artifactId>tenbit-lite</artifactId>
-        </dependency>
+
 
     </dependencies>
 
