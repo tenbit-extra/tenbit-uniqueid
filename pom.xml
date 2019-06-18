@@ -29,6 +29,18 @@
 
     <packaging>pom</packaging>
 
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>cn.tenbit.extra</groupId>
+                <artifactId>tenbit-uniqueid-core</artifactId>
+                <version>${tenbit-uniqueid-core.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
     <dependencies>
 
         <dependency>
