@@ -18,6 +18,12 @@
 
     <packaging>war</packaging>
 
+    <properties>
+
+        <mybatis-spring-boot-starter.version>1.3.4</mybatis-spring-boot-starter.version>
+
+    </properties>
+
     <dependencies>
 
         <dependency>
@@ -70,7 +76,7 @@
         </dependency>
 
         <!--
-        spring family
+        spring boot family
         -->
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
@@ -78,6 +84,32 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot-starter.version}</version>
+        </dependency>
+
+        <!--
+        spring family
+        -->
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-jdbc -->
         <dependency>
@@ -165,5 +197,17 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.version}</version>
+            </plugin>
+
+        </plugins>
+    </build>
 
 </project>
